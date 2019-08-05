@@ -1,0 +1,84 @@
+.firstsection
+{
+  display:flex;
+  flex-direction: column;
+}
+.first1
+{
+  font-size: 20px;
+  display:flex;
+  flex-basis: row;
+  justify-content:space-between;
+}
+.first2
+{
+  display:flex;
+  justify-content: center;
+  margin:5px;
+}
+.jobpply
+{
+ padding-top:10px;
+ padding-left:20px;
+}
+/*.container .firstnavmenu
+{
+  background-color: skyblue;
+}*/
+.container .firstnavmenu ul
+  {
+    list-style:none;
+    color:red;
+  }
+.container .firstnavmenu li
+{
+  /*display:block;*/
+  /*position:relative;*/
+}
+.first2textblock
+{
+  position:absolute;
+}
+.container .firstnavmenu ul li
+  {
+    float:left;
+    width:100px;
+    height:20px;
+    /*background-color: #003470;*/
+    line-height:10px;
+    text-align:center;
+  }     
+.first2
+{
+  clear:left;
+  padding:20px;
+  background-color: white;
+}
+.container .firstsection .first2 img
+{
+  width:500px;
+  height:300px;
+}
+.container .firstsection .first2
+{
+  float:right;
+}
+.container .firstsection .first2 p
+{
+
+}
+
+.container
+{
+  max-width: 980px;
+  margin:auto;
+  background-color: grey;
+  display:flex;
+  flex-direction: column;
+  padding:0px 100px 10px 100px;
+}
+
+.second{background-color:green;flex:5}
+.third{background-color:yellow}
+.fourth{background-color:cyan}
+.fifth{background-color:violet}
