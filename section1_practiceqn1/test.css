@@ -12,6 +12,7 @@ body
   background-color: black;
 }
 
+
 /* ===============================================================
 main grid container
 ===============================================================*/
@@ -56,8 +57,8 @@ header ul li
 {
   list-style:none;
   float:left;
-  width:70px;
-  height:40px;
+  width: 14.28%;
+  height: auto;
   background-color: white;
   line-height:40px;
   text-align:center;
@@ -90,7 +91,7 @@ Defining five sections styling
 .section1
 {
   background-color:white;
-  height:500px;
+  height:auto;
   padding:5px 200px 5px 200px;
   background-image: url("https://i.imgur.com/V2fOQcP.jpg");
   background-repeat: no-repeat;
@@ -123,9 +124,10 @@ Defining five sections styling
 {
   background-color:rgb(84, 84, 253);
   border-radius: 5px;
-  max-width:300px;
+  max-width: 38%;
   text-align: center;
   margin-top:5px;
+  margin-bottom:40px;
   padding:20px;
   border:1px solid;
 }
@@ -149,10 +151,11 @@ Defining five sections styling
 .section2
 {
   background-color:rgb(84, 84, 253);
-  height:250px;
+  height:auto;
   padding:70px 200px 5px 200px;
   display:flex;
   font-family: Arial, Helvetica, sans-serif;
+
   
 }
 .section2 h3
@@ -165,6 +168,7 @@ Defining five sections styling
   color: #999;
   line-height:1.6;
   font-size:12px;
+  margin-bottom:120px;
 }
 .section2 div
 {
@@ -184,7 +188,7 @@ Defining five sections styling
 .section3
 {
   background-color:white;
-  height:600px;
+  height:auto;
   padding:5px 200px 5px 200px;
   font-size:15px;
 }
@@ -213,6 +217,7 @@ Defining five sections styling
   list-style: none;
   font-family:sans-serif;
   line-height:40px;
+  margin-bottom: 100px;
 }
 .section3 .label1
 {
@@ -234,7 +239,7 @@ Defining five sections styling
 .section4
 {
   background-color:rgb(105, 96, 96);
-  height:500px;
+  height:auto;
   padding:5px 200px 5px 200px;
   background-image:url("https://ichef.bbci.co.uk/news/660/cpsprodpb/CE7B/production/_87795825_computerthinkstock.jpg");
   background-repeat: no-repeat;
@@ -245,10 +250,11 @@ Defining five sections styling
   border: 1px solid white ;
   background-color: white;
   width:auto;
-  max-width:500px;
+  max-width:60%;
   height:auto;
   padding:10px 50px 10px 50px;
   margin-top:50px;
+  margin-bottom:200px;
 }
 .section4 h3
 {
@@ -268,7 +274,7 @@ Defining five sections styling
 .section5
 {
   background-color:black;
-  height:300px;
+  height:auto;
   padding:5px 200px 5px 200px;
   display:flex;
   
@@ -294,6 +300,6 @@ Defining five sections styling
   font-size:12px;
 }
 .section5 i{
-  font-size:10px;
-  margin:3px;
+  font-size:13px;
+  margin: 3px 3px 70px 3px;
 }
