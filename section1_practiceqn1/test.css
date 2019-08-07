@@ -22,7 +22,7 @@ main grid container
   max-width:1200px;
   margin:auto;
   display:grid;
-  grid-gap: 3px;
+  /*grid-gap: 3px;*/
   grid-template-rows: auto auto auto auto auto auto auto;
 }
 
@@ -92,6 +92,56 @@ Defining five sections styling
   background-color:white;
   height:500px;
   padding:5px 200px 5px 200px;
+  background-image: url("https://i.imgur.com/V2fOQcP.jpg");
+  background-repeat: no-repeat;
+  background-size: 54% 104%;
+  background-position: 64% 34%;
+}
+.section1 .digit
+{
+  color: tomato;
+}
+.section1 .button4
+{
+  background-color: tomato;
+  color:white;
+}
+.section1 .subheading
+{
+  margin-top:80px;
+  margin-bottom: 0px;
+  font-size:15px;
+}
+.section1 .mainheading
+{
+  font-size:60px;
+  margin-top:10px;
+  margin-right:300px;
+}
+
+.section1 .buttons
+{
+  background-color:rgb(84, 84, 253);
+  border-radius: 5px;
+  max-width:300px;
+  text-align: center;
+  margin-top:5px;
+  padding:20px;
+  border:1px solid;
+}
+.section1 button
+{
+  margin:5px;
+  width:auto;
+  height:35px;
+  border-radius: 5px;
+}
+.section1 .findcandidate
+{
+  background-color:rgb(84, 84, 253);
+  color: white;
+  padding:10px;
+  border-radius: 5px;
 }
 
 /* section2 styling
@@ -100,7 +150,7 @@ Defining five sections styling
 {
   background-color:rgb(84, 84, 253);
   height:250px;
-  padding:5px 200px 5px 200px;
+  padding:70px 200px 5px 200px;
   display:flex;
   font-family: Arial, Helvetica, sans-serif;
   
@@ -123,7 +173,11 @@ Defining five sections styling
   width:25%;
   padding:10px;
 }
-
+.section2 i
+{
+  font-size:44px;
+  color:white;
+}
 /* section3 styling
 ============================================================== */
 
@@ -132,8 +186,14 @@ Defining five sections styling
   background-color:white;
   height:600px;
   padding:5px 200px 5px 200px;
+  font-size:15px;
 }
 .section3 h2{
+  text-align: center;
+}
+.section3 h5
+{
+  color: #999;
   text-align: center;
 }
 .section3 .content
@@ -184,9 +244,11 @@ Defining five sections styling
 {
   border: 1px solid white ;
   background-color: white;
-  width:400px;
-  height:250px;
+  width:auto;
+  max-width:500px;
+  height:auto;
   padding:10px 50px 10px 50px;
+  margin-top:50px;
 }
 .section4 h3
 {
@@ -230,4 +292,8 @@ Defining five sections styling
 .section5 p
 {
   font-size:12px;
+}
+.section5 i{
+  font-size:10px;
+  margin:3px;
 }
