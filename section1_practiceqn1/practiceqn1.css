@@ -1,0 +1,309 @@
+
+
+/* ===============================================================
+adding padding,margins,borders to max width
+===============================================================*/
+
+html{
+  box-sizing: border-box;
+}
+body
+{
+  background-color: black;
+}
+
+
+/* ===============================================================
+main grid container
+===============================================================*/
+
+.grid-container1{
+
+  background-color: silver;
+  max-width:1200px;
+  margin:auto;
+  display:grid;
+  /*grid-gap: 3px;*/
+  grid-template-rows: auto auto auto auto auto auto auto;
+}
+
+/* ===============================================================
+header is given grid property
+===============================================================*/
+
+header {
+
+display:grid;
+grid-template-columns: 1fr 2fr;
+align-items: center;
+padding:5px 200px 5px 200px;
+background-color: white;
+
+}
+
+footer
+{
+  text-align: center; 
+  background-color: black;
+  color:white;
+  font-size:10px;
+}
+
+/* ===============================================================
+defining styling of top nav menu
+===============================================================*/
+
+header ul li
+{
+  list-style:none;
+  float:left;
+  width: 14.28%;
+  height: auto;
+  background-color: white;
+  line-height:40px;
+  text-align:center;
+  padding:0px 0px 0px 0px;
+} 
+header .button1
+{
+  margin-right:2px;
+  font-size:10px;
+  height:30px;
+  background-color: rgb(84, 84, 253);
+  color:white;
+  border:0px solid;
+}
+header .button2
+{
+  font-size:10px;
+  height:30px;
+  color:white;
+  background-color: tomato;
+  border:0px solid;
+}  
+
+/* ===============================================================
+Defining five sections styling
+===============================================================*/
+
+/* Section1 styling
+============================================================== */
+.section1
+{
+  background-color:white;
+  height:auto;
+  padding:5px 200px 5px 200px;
+  background-image: url("https://i.imgur.com/V2fOQcP.jpg");
+  background-repeat: no-repeat;
+      background-size: 52% auto;
+    background-position: 100% 33%;
+}
+}
+.section1 .digit
+{
+  color: tomato;
+}
+.section1 .button4
+{
+  background-color: tomato;
+  color:white;
+}
+.section1 .subheading
+{
+  margin-top:80px;
+  margin-bottom: 0px;
+  font-size:15px;
+}
+.section1 .mainheading
+{
+  font-size:60px;
+  margin-top:10px;
+  margin-right:300px;
+}
+
+.section1 .buttons
+{
+  background-color:rgb(84, 84, 253);
+  border-radius: 5px;
+  max-width: 38%;
+  text-align: center;
+  margin-top:5px;
+  margin-bottom:40px;
+  padding:20px;
+  border:1px solid;
+}
+.section1 button
+{
+  margin:5px;
+  width:auto;
+  height:35px;
+  border-radius: 5px;
+}
+.section1 .findcandidate
+{
+  background-color:rgb(84, 84, 253);
+  color: white;
+  padding:10px;
+  border-radius: 5px;
+}
+
+/* section2 styling
+============================================================== */
+.section2
+{
+  background-color:rgb(84, 84, 253);
+  height:auto;
+  padding:70px 200px 5px 200px;
+  display:flex;
+  font-family: Arial, Helvetica, sans-serif;
+
+  
+}
+.section2 h3
+{
+  font-size:14px;
+  color: white;
+}
+.section2 p
+{
+  color: #999;
+  line-height:1.6;
+  font-size:12px;
+  margin-bottom:120px;
+}
+.section2 div
+{
+  background-color:rgb(84, 84, 253);
+  margin:2px;
+  width:25%;
+  padding:10px;
+}
+.section2 i
+{
+  font-size:44px;
+  color:white;
+}
+/* section3 styling
+============================================================== */
+
+.section3
+{
+  background-color:white;
+  height:auto;
+  padding:5px 200px 5px 200px;
+  font-size:15px;
+}
+.section3 h2{
+  text-align: center;
+}
+.section3 h5
+{
+  color: #999;
+  text-align: center;
+}
+.section3 .content
+{
+  display:flex;
+  padding:1px 0px 1px 0px;
+}
+.section3 .content div
+{
+  background-color: white;
+  height:auto;
+  width:25%;
+  margin:1px;
+}
+.section3 ul
+{
+  list-style: none;
+  font-family:sans-serif;
+  line-height:40px;
+  margin-bottom: 100px;
+}
+.section3 .label1
+{
+  color:red;
+}
+.section3 .label2
+{
+  color:#999;
+}
+.section3 li
+{
+  color:black;
+}
+
+
+/* section4 styling
+============================================================== */
+
+.section4
+{
+  background-color:rgb(105, 96, 96);
+  height:auto;
+  padding:5px 200px 5px 200px;
+  background-image:url("https://ichef.bbci.co.uk/news/660/cpsprodpb/CE7B/production/_87795825_computerthinkstock.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.section4 .boxed
+{
+  border: 1px solid white ;
+  background-color: white;
+  width:auto;
+  max-width:60%;
+  height:auto;
+  padding:10px 50px 10px 50px;
+  margin-top:50px;
+  margin-bottom:200px;
+}
+.section4 h3
+{
+  font-size:30px;
+}
+.section4 label
+{
+  color:blue;
+}
+.section4 p
+{
+  color:#999;
+}
+/* section5 styling
+============================================================== */
+
+.section5
+{
+  background-color:black;
+  height:auto;
+  padding:5px 200px 5px 200px;
+  display:flex;
+  
+}
+.section5 div
+{
+  padding:20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color:black;
+  color: white;
+  margin:2px;
+  width:25%;
+  
+}
+.section5 li
+{
+  list-style: none;
+  line-height:25px;
+  font-size:12px;
+}
+.section5 p
+{
+  font-size:12px;
+}
+.section5 i{
+  font-size:13px;
+  margin: 3px 3px 70px 3px;
+}
+.section5 ul {
+    padding-left: 0px;
+}

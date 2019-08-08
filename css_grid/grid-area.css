@@ -1,0 +1,38 @@
+.grid-container {
+    display: grid;
+    background-color: #2196F3;
+    padding: 10px;
+    grid-gap:5px;
+    grid-template-areas: "myArea myArea myArea myArea"
+                          "newarea . seasaw oneplus"
+                          "hi hi hi hi" ;
+  }
+
+.grid-item {
+background-color: rgba(255, 255, 255, 0.8);
+border: 1px solid rgba(0, 0, 0, 0.8);
+padding: 20px;
+font-size: 30px;
+text-align: center;
+}
+.item1
+{
+    grid-area:myArea;
+}
+
+.item2
+{
+    grid-area:oneplus;
+}
+.item3
+{
+    grid-area: newarea;
+}
+.item4
+{
+    grid-area: hi;
+}
+.item5
+{
+    grid-area: seasaw;
+}
