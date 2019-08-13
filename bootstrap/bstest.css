@@ -114,7 +114,14 @@ category section styling
 .list-group-item {
   border:none;
 }
-
+.categoryheading h3
+{
+  width:100%;
+  text-align: center;
+}
+.categoryheading h5{
+  text-align: center;
+}
 /* ===============================================================
 Browsejob section styling
 ===============================================================*/
@@ -143,7 +150,7 @@ Browsejob section styling
 /* ===============================================================
 Contact section styling
 ===============================================================*/
-.contact{
+  .topcontainer{
   color:#999;
   background-color: black;
   
@@ -159,15 +166,31 @@ color:white;
 .socialmedia{
   background-image: url("images/iconset-sprite-social.jpg");
   background-repeat:no-repeat;
+  background-size:70%;
   width:200px;
   height:100px;
 }
-.location{
-  width:200px;
+#location,#phone,#mail{
+  width: 25px;
+	height: 30px;
+	opacity: 1;
+	display: inline-block;
+  background-image: url("images/iconset-sprite-contact.jpg");
+}
+
+#phone{
+  background-position:0px -30px;
+}
+
+#mail{
+  background-position:0px -62px;
 }
 .media-body{
   width:200px;
   height:100px;
+}
+..topcontainer{
+  background-color: black;
 }
 
 /* ===============================================================
