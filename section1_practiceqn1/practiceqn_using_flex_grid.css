@@ -93,7 +93,7 @@ Defining five sections styling
   background-color:white;
   height:auto;
   padding:5px 200px 5px 200px;
-  background-image: url("https://i.imgur.com/V2fOQcP.jpg");
+  background-image: url("images/hero-image.jpg");
   background-repeat: no-repeat;
       background-size: 52% auto;
     background-position: 100% 33%;
@@ -123,7 +123,7 @@ Defining five sections styling
 
 .section1 .buttons
 {
-  background-color:rgb(84, 84, 253);
+  background-color:#6e64ff;
   border-radius: 5px;
   max-width: 38%;
   text-align: center;
@@ -141,7 +141,7 @@ Defining five sections styling
 }
 .section1 .findcandidate
 {
-  background-color:rgb(84, 84, 253);
+  background-color:#6e64ff;
   color: white;
   padding:10px;
   border-radius: 5px;
@@ -151,7 +151,7 @@ Defining five sections styling
 ============================================================== */
 .section2
 {
-  background-color:rgb(84, 84, 253);
+  background-color:#6e64ff;
   height:auto;
   padding:70px 200px 5px 200px;
   display:flex;
@@ -166,14 +166,14 @@ Defining five sections styling
 }
 .section2 p
 {
-  color: #999;
+  color: rgb(255, 244, 244);
   line-height:1.6;
   font-size:12px;
   margin-bottom:120px;
 }
 .section2 div
 {
-  background-color:rgb(84, 84, 253);
+  background-color:#6e64ff;
   margin:2px;
   width:25%;
   padding:10px;
