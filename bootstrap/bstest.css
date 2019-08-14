@@ -17,6 +17,7 @@ header styling
 
 .btn-primary{
   margin-right:10px;
+ 
 }
 
 /* ===============================================================
@@ -29,7 +30,8 @@ main area styling
   background-repeat: no-repeat;
   background-position: 78% 3%;
   height:auto;
-  
+  padding-left:20px;
+  padding-right:20px;
 }
 
 .mainarea h1{
@@ -66,7 +68,15 @@ padding:2% 60% 20% 0%;
   border-top-left-radius: none;
   border-top-right-radius: none;
 }
+.input1,.input2,.input3{
+  width:120px;
+  padding-right:10px;
+}
 
+.btn.mybutton{
+  height:40px;
+  border:0px;
+}
 /* ===============================================================
 section2 styling
 ===============================================================*/
@@ -132,10 +142,7 @@ Browsejob section styling
   background-size:cover;
 }
 
-.jobbrowse{
-  padding:30px 20px 30px 20px;
-}
-.jobbrowse
+.card-body.jobbrowse
 {
   background:url("images/search.png");
   background-color: white;
@@ -144,15 +151,21 @@ Browsejob section styling
   background-position:2% 14%;
   width: auto;
   height: auto;
-  margin: 4% 44% 8% 10%;
-  padding:30px 20px 30px 20px;
+  margin: 4% 44% 8% 22%;
+  padding:30px 40px 30px 20px;
+}
+.container.sectioncategory{
+  padding:0px;
+}
+.specialism{
+  padding:0px;
 }
 /* ===============================================================
 Contact section styling
 ===============================================================*/
-  .topcontainer{
-  color:#999;
-  background-color: black;
+.topcontainer{
+color:#999;
+background-color: black;
   
 }
 .contact h5{

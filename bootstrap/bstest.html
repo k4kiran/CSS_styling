@@ -69,20 +69,32 @@
         <div class="tab-content">
             <div role="tabpanel" class="tab-pane fade in active" id="profile">
               </br>
-              <div class="buttonsection">
-                <button type="button" class="btn btn-light">Adam</button>
-                <button type="button" class="btn btn-light">Category</button>
-                <button type="button" class="btn btn-light">Location</button>
-                <button type="button" class="btn btn-danger">Search</button>
+              <div class="buttonsection d-flex flex-wrap">
+                <div class="form-group input1">
+                  <input type="text" class="form-control" placeholder="Eg: Adam Sc" name="text1">
+                </div>
+                <div class="form-group input2">
+                  <input type="text" class="form-control" placeholder="Category" name="text2">
+                </div>
+                <div class="form-group input3">
+                  <input type="text" class="form-control" placeholder="Location" name="text2">
+                </div>
+                <button type="submit" class="btn btn-danger mybutton">Search</button>
               </div>
             </div>
             <div role="tabpanel" class="tab-pane fade" id="buzz">
               </br>
-              <div class="buttonsection">
-                <button type="button" class="btn btn-light">Primary</button>
-                <button type="button" class="btn btn-light">Secondary</button>
-                <button type="button" class="btn btn-light">Success</button>
-                <button type="button" class="btn btn-danger">Info</button>
+              <div class="buttonsection d-flex flex-wrap">
+                <div class="form-group input1">
+                  <input type="text" class="form-control myform" placeholder="Eg: Adam Sc" name="text4">
+                </div>
+                <div class="form-group input2">
+                  <input type="text" class="form-control" placeholder="Category" name="text5">
+                </div>
+                <div class="form-group input3">
+                  <input type="text" class="form-control" placeholder="Location" name="text6">
+                </div>
+                <button type="submit" class="btn btn-danger mybutton">Search</button>
               </div>
             </div>
         </div>
@@ -128,7 +140,7 @@
     <!--second section ends here-->
       
     <!--category section starts here-->
-    <div class="sectioncategory container">
+    <div class="container sectioncategory">
         <section class="categoryheading pt-4">
           <h5 class= "text-secondary"> <small>Job Categories</small></h5>
           <h3 class="mx-auto">Top Categories</h3>
@@ -219,18 +231,16 @@
         <!--category section ends here-->
     </div>  
       <!--browsejob section starts here-->
-      <section class="specialism">
-        <div class="browsejob card card-default">
-          <div class="jobbrowse card-body">
-            <h6>SEARCH JOB</h6>
-            <h1>Browse Job By Specialism</h1>
-            <p>Far far away,behind the word mountains, far from the countries vokalia and consonantia, there live the blind texts.Seperated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-          </div>
+      <div class="browsejob card card-default">
+        <div class="jobbrowse card-body container">
+          <h6>SEARCH JOB</h6>
+          <h1>Browse Job By Specialism</h1>
+          <p>Far far away,behind the word mountains, far from the countries vokalia and consonantia, there live the blind texts.Seperated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
         </div>
-      </section>
-        <!--browsejob section ends here-->
+      </div>
+      <!--browsejob section ends here-->
       
-        <!--contact section starts here-->
+      <!--contact section starts here-->
       <section class=topcontainer>
         <div class="container">
           <section class="row contact">        
