@@ -56,10 +56,10 @@ padding:2% 60% 20% 0%;
 }
 
 .mainarea .nav-link{
-  background-color: #6e64ff;
+  background-color: white;
 }
 .mainarea .nav-link{
-  color:white;;
+  color:black;
 }
 
 /*to remove borders of tab*/
@@ -76,6 +76,12 @@ padding:2% 60% 20% 0%;
 .btn.mybutton{
   height:40px;
   border:0px;
+}
+
+
+.nav-tabs .nav-item.show .nav-link.mylink, .nav-tabs .nav-link.mylink.active 
+{
+  background-color: #6e64ff;
 }
 /* ===============================================================
 section2 styling
