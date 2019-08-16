@@ -82,6 +82,7 @@ padding:2% 60% 20% 0%;
 .nav-tabs .nav-item.show .nav-link.mylink, .nav-tabs .nav-link.mylink.active 
 {
   background-color: #6e64ff;
+  color:white;
 }
 /* ===============================================================
 section2 styling
@@ -194,7 +195,7 @@ color:white;
 	height: 30px;
 	opacity: 1;
 	display: inline-block;
-  background-image: url("images/iconset-sprite-contact.jpg");
+  background: url(images/iconset-sprite-contact.jpg)0 1px;
 }
 
 #phone{
@@ -207,6 +208,9 @@ color:white;
 .media-body{
   width:200px;
   height:100px;
+}
+.lastcolumn p{
+  margin-bottom:0px;
 }
 ..topcontainer{
   background-color: black;
